@@ -1,0 +1,18 @@
+{
+  "name": "YouTube-Add_Skip",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "icons": {
+    "16": "images/size16.png",
+    "48": "images/size48.png",
+    "128": "images/size128.png"
+  },
+
+  "description": "Skip youtube add",
+  "content_scripts": [{
+    "matches": ["https://www.youtube.com/*"],
+    "js": [
+      "content.js"
+    ]
+  }]
+}
